@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("../assets/background.jpg");
+    background-size: cover; 
+    background-position: center; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+
+  #activities-section {
+    background-color: #ccc;
+    border-radius: 10px;
+    padding: 10px; 
+    margin-bottom: 20px;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  .tech-logos {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logo {
+    width: 100px;
+    margin-right: 20px;
+    transition: transform 0.3s, filter 0.3s;
+  }
+  
+  .logo:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+  }
+  
+  .tech-container {
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .tech-item {
+    width: 150px;
+    height: 300px;
+    background-color: #ccc;
+    border: none; 
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; 
+    margin: 15px; 
+    overflow: hidden; 
+  }
+  
+  .tech-item:hover {
+    background-color: var(--hover-color);
+    transform: scale(1.05); 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+  }
+  
+  .tech-item h3 {
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .tech-item img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  #html:hover {
+    --hover-color: orange;
+  }
+  
+  #css:hover {
+    --hover-color: blue;
+  }
+  
+  #javascript:hover {
+    --hover-color: yellow;
+  }
+
+  .input-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+.input-container input {
+  width: 350px; 
+}
+
+#activities-section {
+    background-color: #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  #activity-description {
+    min-height: 150px; 
+  }
+  
+  input, button {
+    margin-bottom: 10px;
+  }
+  
+  .activity-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .activity-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .activity-card img {
+    max-width: 200px; 
+    max-height: 200px; 
+    height: auto; 
+  }
+  
+  #activities-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las tarjetas se envuelvan */
+  }
+  
+  .activity-card {
+    width: 250px;
+    height: 400px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }

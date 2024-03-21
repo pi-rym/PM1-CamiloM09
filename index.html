@@ -1,11 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Camilo Montoya</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/reset.css">
 </head>
+
 <body>
-    <h1>Proyecto M1</h1>
+
+  <div class="section" id="intro-container">
+    <h1>Camilo Montoya</h1>
+    <p>¡Hola! Soy Camilo Montoya, fotógrafo con ocho años de experiencia en el mundo de la imagen.</p> 
+    <p>Desde siempre he sido un apasionado de la tecnología y el desarrollo web.</p> 
+    <p>Recientemente, he tomado la decisión de dar un giro a mi carrera profesional y aventurarme en el mundo de la programación full stack.</p> 
+    <p>Este nuevo camino me emociona profundamente, ya que me brinda la oportunidad de combinar mis habilidades creativas con mi fascinación por la tecnología.</p> 
+    <p>Estoy comprometido a aprender y crecer cada día en este apasionante campo, ansioso por explorar todas las posibilidades que ofrece el desarrollo web.</p> 
+    <p>¡Estoy emocionado por lo que el futuro tiene reservado para mí en esta nueva aventura!</p>
+  </div>
+
+
+  <div class="section">
+    <h2>Mis tecnologías favoritas</h2>
+    <div class="tech-container">
+      <div class="tech-item" id="html">
+        <h3>HTML</h3>
+        <img src="assets/html_logo.png" alt="HTML">
+      </div>
+      <div class="tech-item" id="css">
+        <h3>CSS</h3>
+        <img src="assets/css_logo.png" alt="CSS">
+      </div>
+      <div class="tech-item" id="javascript">
+        <h3>JavaScript</h3>
+        <img src="assets/javascript_logo.png" alt="JavaScript">
+      </div>
+    </div>
+  </div>
+
+
+  <div class="section" id="activities-section">
+    <h2>Mis actividades favoritas</h2>
+    <div class="input-container">
+      <input type="text" id="activity-title" placeholder="Título de la actividad">
+      <br>
+      <input type="text" id="activity-description" placeholder="Descripción de la actividad">
+      <br>
+      <input type="url" id="activity-image" placeholder="Link de la imagen">
+      <br>
+      <button id="add-activity">Agregar actividad</button>
+    </div>
+  </div>
+  <div id="activities-container"></div>
+  
+</div>
+<script src="scripts/index.js"></script>
 </body>
 </html>
